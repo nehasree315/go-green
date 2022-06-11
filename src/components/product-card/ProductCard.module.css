@@ -1,0 +1,57 @@
+.MainContainer {
+  background-color: #1c1e1f;
+  padding: 10px;
+  flex-basis: 23%;
+  margin: 20px 0px;
+  margin-right: 2%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.ProductImage {
+  width: 274px;
+  height: 168px;
+}
+
+.Space {
+  height: 20px;
+}
+
+.Title {
+  font-family: "Reem Kufi";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 30px;
+  color: #ffffff;
+}
+
+.RatingContainer {
+  width: 50%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.CurrentPrice {
+  font-family: "Reem Kufi";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 30px;
+  line-height: 45px;
+  color: #fd6f3d;
+  margin-right: 10px;
+}
+
+.InitialPrice {
+  font-family: "Reem Kufi";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 22px;
+  color: #b5afaf;
+  text-decoration-line: line-through;
+  text-decoration-style: solid;
+}

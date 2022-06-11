@@ -1,0 +1,35 @@
+.MainContainer {
+  padding-left: 10vw;
+  padding-right: 5vw;
+  padding-top: 10vh;
+  z-index: 0;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  background-color: #27292d;
+  overflow-y: scroll;
+}
+
+.TitleContainer {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.TitleRight {
+  font-family: "Reem Kufi";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 25px;
+  line-height: 38px;
+  color: #ffffff;
+}
+
+.ProductContainer {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}

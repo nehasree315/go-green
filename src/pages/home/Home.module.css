@@ -1,0 +1,144 @@
+.MainContainer {
+  z-index: 0;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+}
+
+.ExploreMoreLink {
+  position: fixed;
+  width: 147px;
+  height: 24px;
+  left: 150px;
+  bottom: 90px;
+}
+
+.BgContainer {
+  width: 60vw;
+  height: 100vh;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 0;
+  background-color: #27292d;
+}
+
+.InnerContainer {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding-left: 10vw;
+}
+
+.InnerDetailsSection {
+  flex: 4;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.InnerImageSection {
+  flex: 8;
+  position: relative;
+}
+
+.InnerImage {
+  width: 925px;
+  height: 733px;
+  position: absolute;
+  top: -366px;
+  left: 0;
+}
+
+.InnerProductSelect {
+  flex: 1;
+}
+
+.Title {
+  font-family: "Reem Kufi";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 38px;
+  line-height: 60px;
+  letter-spacing: 0.02em;
+  color: #ffffff;
+}
+
+.Description {
+  font-family: "Reem Kufi";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 25px;
+  line-height: 60px;
+  letter-spacing: 0.02em;
+  color: #ffffff;
+}
+
+.PriceLabel {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 21px;
+
+  color: #ffffff;
+}
+
+.Price {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 25px;
+  line-height: 21px;
+
+  color: #ffffff;
+}
+
+.OrderButton {
+  width: 180px;
+  height: 50px;
+  background: #fd6f3d;
+  border: none;
+  border-radius: 5px;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 19px;
+  color: #ffffff;
+  cursor: pointer;
+}
+
+.Space {
+  height: 20px;
+}
+
+.DotContainer {
+  display: flex;
+  flex-direction: column;
+  height: 200px;
+  justify-content: space-between;
+}
+
+.Dot {
+  width: 35px;
+  height: 35px;
+  cursor: pointer;
+}
+
+.DetailLabel {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 15px;
+  line-height: 20px;
+  /* or 133% */
+
+  text-align: center;
+
+  color: #ffffff;
+}

@@ -1,0 +1,246 @@
+.MainContainer {
+  z-index: 0;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+}
+
+.BgContainer {
+  width: 60vw;
+  height: 100vh;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 0;
+  background-color: #27292d;
+}
+
+.InnerContainer {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding-left: 10vw;
+}
+
+.InnerDetailsSection {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.RightSection {
+  flex: 1;
+  padding: 5%;
+  display: flex;
+  align-items: stretch;
+  align-self: stretch;
+}
+
+.BuySection {
+  flex: 1;
+  background: #ffffff;
+  border-radius: 15px;
+  padding: 40px;
+  display: flex;
+  flex-direction: column;
+  align-items: stretch;
+  justify-content: space-between;
+  overflow: scroll;
+}
+
+.ExploreMoreLink {
+  position: fixed;
+  width: 147px;
+  height: 24px;
+  left: 150px;
+  bottom: 90px;
+}
+
+.InnerImage {
+  width: 787px;
+  height: 625px;
+}
+
+.Title {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 40px;
+  line-height: 47px;
+  color: #fd6f3d;
+}
+
+.Horizontal {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 10px;
+}
+
+.Model {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 35px;
+  line-height: 41px;
+  color: #454545;
+}
+
+.RatingContainer {
+  width: 20%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.Description {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 300;
+  font-size: 20px;
+  line-height: 25px;
+  color: #6f6f6f;
+}
+
+.Divider {
+  height: 2px;
+  background-color: #9c9c9c;
+}
+
+.ColorSelectedOption {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  border: 1.5px solid #000000;
+  border-radius: 5px;
+  width: 170px;
+  height: 40px;
+}
+
+.ColorOptionContainer {
+  overflow: hidden;
+  border: 1.5px solid #000000;
+  border-radius: 0px 0px 5px 5px;
+  width: 170px;
+}
+
+.ColorSelectedOptionText {
+  padding: 10px;
+  flex: 1;
+}
+
+.SelectVerticalDivider {
+  align-self: stretch;
+  width: 2px;
+  background-color: black;
+}
+
+.SelectArrow {
+  padding: 10px;
+  cursor: pointer;
+}
+
+.ColorDot {
+  width: 10px;
+  height: 10px;
+}
+
+.DropdownOption {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  height: 40px;
+  padding: 10px;
+  background-color: #ffffff;
+}
+
+.DropdownOption:hover {
+  background-color: #eeeeee;
+}
+
+.QuantityArrows {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 0px 10px;
+  cursor: pointer;
+}
+
+.BreakType {
+  padding: 10px;
+}
+
+.CurrentPrice {
+  padding: 10px;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 40px;
+  line-height: 47px;
+  color: #000000;
+}
+
+.InitialPrice {
+  padding: 10px;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 23px;
+  color: #000000;
+  text-decoration-line: line-through;
+  text-decoration-color: #fd6f3d;
+  text-decoration-style: solid;
+}
+
+.OrangeButton {
+  cursor: pointer;
+  height: 55px;
+  flex: 1;
+  background: #fd6f3d;
+  border-radius: 5px;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 19px;
+  color: #ffffff;
+  border: none;
+}
+
+.Space {
+  height: 20px;
+}
+
+.Space10 {
+  height: 10px;
+}
+
+.DetailTitle {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 23px;
+  color: #454545;
+}
+
+.DetailDescription {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 23px;
+  color: #454545;
+}
+
+.Vertical {
+  min-width: 170px;
+}

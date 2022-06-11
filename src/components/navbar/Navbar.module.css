@@ -1,0 +1,46 @@
+.MainContainer {
+  position: fixed;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-end;
+  width: 5vw;
+}
+
+.InnerContainer {
+  height: 500px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.NavbarLinkInActive {
+  font-family: "Reem Kufi";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 30px;
+  color: #828282;
+  transform: rotate(-90deg);
+  text-decoration: none;
+}
+
+.NavbarLinkActive {
+  font-family: "Reem Kufi";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 30px;
+  color: #ffffff;
+  transform: rotate(-90deg);
+  text-decoration: none;
+}
+
+.Logo {
+  position: absolute;
+  width: 88px;
+  height: 35px;
+  left: 10vw;
+  top: 30px;
+}
